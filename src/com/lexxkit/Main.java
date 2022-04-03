@@ -99,5 +99,40 @@ public class Main {
         System.out.printf("Kristina's salary now is %d rubles. Her yearly income has increased by %d.\n",
                 newMonthlySalaryKristina, yearlyDiffKristina);
 
+        // Task 6
+        System.out.println("\nAdditional Task 6\n");
+        int a1 = 12;
+        int b1 = 27;
+        int c1 = 44;
+        int d1 = 15;
+        int e1 = 9;
+
+        int result = a1 * (b1 + (c1 - d1 * e1));
+        result *= -1;
+        System.out.println(result);
+
+        // Task 7
+        System.out.println("\nAdditional Task 7\n");
+        int a2 = 5;
+        int b2 = 7;
+
+        System.out.println("Initial value of a2: " + a2);
+        System.out.println("Initial value of b2: " + b2);
+
+        a2 = a2 + b2;
+        b2 = a2 - b2;
+        a2 = a2 - b2;
+
+        System.out.println("Swaping values...");
+        System.out.println("New value of a2: " + a2);
+        System.out.println("New value of b2: " + b2);
+
+        // Task 8
+        System.out.println("\nAdditional Task 8\n");
+
+        int a3 = 256;
+        int b3 = a3 % 100 / 10;
+
+        System.out.println("Middle number is: " + b3);
     }
 }
